@@ -1,6 +1,6 @@
 # Batch Acceptance Prediction
 
-Desktop app that scores annotation quality across POC_P2 batch folders using
+Desktop app that scores annotation quality across annotation batch folders using
 logistic regression on JSON geometry features + Sobel-gradient image features.
 Built in Rust with an egui/eframe GUI.
 
@@ -59,7 +59,7 @@ cached results and are significantly faster.
 ## Workflow
 
 1. **Pick a folder** — top bar → "Switch folder..." → select a parent directory
-   containing `POC_P2_*` batch subfolders.
+   containing annotation batch subfolders.
 2. **Run analysis** — side panel → ▶ Run analysis. Progress streams into the
    log. The pipeline scans `.json` + `.txt` pairs (labeled) and `.json`-only
    files (unprocessed).
