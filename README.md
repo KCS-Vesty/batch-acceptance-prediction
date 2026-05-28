@@ -169,22 +169,6 @@ The **last valid line** determines the file's status. The parser skips
 date-prefixed comment lines (e.g. `2024-01-01 note`) by checking for `:` in
 the timestamp portion. `manual-*` lines flag the `(manual)` badge in the table.
 
-## File Naming Convention
-
-```
-padded_china_<school-level>_<grade>_<subject>_<doc-type>_<timestamp>_<split>_para<N>.json
-```
-
-- `school-level`: `junior-high-school` | `senior-high-school`
-- `grade`: `grade-1` through `grade-3`
-- `subject`: `math`, `chinese`, `english`, `physics`, `chemistry`, …
-- `doc-type`: arbitrary string (parsed as-is)
-- `split`: `train` | `test`
-- `para<N>`: paragraph index
-
-The batch number is extracted from the **ancestor folder** name:
-`POC_P2_20000_16` → batch 16.
-
 ## Tests
 
 ```powershell
