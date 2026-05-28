@@ -4,7 +4,7 @@ Desktop app that scores annotation quality across POC_P2 batch folders using
 logistic regression on JSON geometry features + Sobel-gradient image features.
 Built in Rust with an egui/eframe GUI.
 
-## Screenshots
+## Features Overview
 
 _After running analysis on a dataset folder:_
 
