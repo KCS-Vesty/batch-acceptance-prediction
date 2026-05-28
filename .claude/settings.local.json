@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cargo --version)",
+      "Bash(rustc --version)",
+      "PowerShell(cargo --version)",
+      "PowerShell(rustc --version)",
+      "PowerShell(Get-Command cargo -ErrorAction SilentlyContinue; Test-Path \"$env:USERPROFILE\\\\.cargo\\\\bin\\\\cargo.exe\"; Test-Path \"C:\\\\Users\\\\Jia Yi\\\\.cargo\\\\bin\\\\cargo.exe\")",
+      "PowerShell(Test-Path \"$env:USERPROFILE\\\\.cargo\\\\bin\\\\cargo.exe\"; & \"$env:USERPROFILE\\\\.cargo\\\\bin\\\\rustup.exe\" --version 2>&1)",
+      "Bash(cargo check *)"
+    ]
+  }
+}

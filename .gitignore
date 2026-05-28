@@ -1,0 +1,18 @@
+# Rust
+target/
+**/*.rs.bk
+*.pdb
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.qa_img_cache.bin
+
+# Data (bulk JPEG/JSON/TXT files — not source code)
+POC_P2_20000/
